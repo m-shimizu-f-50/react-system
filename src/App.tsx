@@ -6,28 +6,13 @@ import Skill from './pages/homes/skill';
 import Production from './pages/homes/production';
 import Contact from './pages/homes/contact';
 import NoMatch from './pages/homes/nomatch';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
     <>
-      <h1>ポートフォリオサイト</h1>
-      <ul>
-        <li>
-          <Link to='/'>Top</Link>
-        </li>
-        <li>
-          <Link to='/profile'>Profile</Link>
-        </li>
-        <li>
-          <Link to='/skill'>Skill</Link>
-        </li>
-        <li>
-          <Link to='/production'>Production</Link>
-        </li>
-        <li>
-          <Link to='/contact'>Contact</Link>
-        </li>
-      </ul>
+      <Header />
       <Routes>
         <Route path='/' element={<Top />} />
         <Route path='/profile' element={<Profile />} />
@@ -36,7 +21,7 @@ const App: React.FC = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<NoMatch />} />
       </Routes>
-      <h2>フッター</h2>
+      <Footer />
     </>
   );
 };
