@@ -1,11 +1,20 @@
 # 開発環境
 
-Reactバージョン　18.2.0　\
+react:　18.2.0　\
+node: 16.18.93\
+typescript: 4.9.5\
+chart.js: 4.4.2\
+OS: Mac
 
-Material UI　\
+
+# 使用しているライブラリ・フレームワーク
+
+- Material UI(CSSフレームワーク)\
 https://mui.com/material-ui/getting-started/
 
-
+- chartjs (レーダーチャート表示　ライブラリ)\
+https://react-chartjs-2.js.org/
+  
 ### `npm start`
 
 Runs the app in the development mode.\
