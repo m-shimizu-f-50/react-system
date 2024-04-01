@@ -52,6 +52,7 @@ const SkillList: React.FC = () => {
     },
   ];
 
+  // チャートオプションの定義
   const setSkillChartOptions = {
     responsive: true,
     maintainAspectRatio: false,
