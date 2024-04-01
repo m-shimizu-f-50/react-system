@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import MV from '../../assets/images/mv.png';
 import SkillList from '../../components/SkillList';
 import ProductionList from '../../components/ProductionList';
+import Profile from '../../components/Profile';
 
 const Top: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Top: React.FC = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'relative',
+          marginBottom: '20px',
         }}
       >
         <Container
@@ -61,40 +63,38 @@ const Top: React.FC = () => {
           LearnMore
         </Button>
       </Box>
-      <Box>
+      <Box
+        sx={{
+          marginBottom: '20px',
+        }}
+      >
         <Container maxWidth='md'>
           <SkillList />
         </Container>
       </Box>
-      <Box>
+      <Box
+        sx={{
+          marginBottom: '20px',
+        }}
+      >
         <Container maxWidth='md'>
           <ProductionList />
         </Container>
       </Box>
-      <Box>
+      <Box
+        sx={{
+          marginBottom: '20px',
+        }}
+      >
         <Container maxWidth='md'>
-          <Grid container rowSpacing={2} columnSpacing={2}>
-            <Grid item xs={12} md={12} sx={{ textAlign: 'center' }}>
-              <Typography component='h2' variant='h2'>
-                Profile
-              </Typography>
-            </Grid>
-            <Grid item xs={12} md={4}>
-              <Box sx={{ height: 200, backgroundColor: 'red' }}></Box>
-            </Grid>
-            <Grid item xs={12} md={8}>
-              <Box sx={{ height: 200, backgroundColor: 'red' }}></Box>
-            </Grid>
-
-            <Grid item xs={12} md={12} sx={{ textAlign: 'center' }}>
-              <Button variant='contained' size='large'>
-                LearnMore
-              </Button>
-            </Grid>
-          </Grid>
+          <Profile />
         </Container>
       </Box>
-      <Box>
+      <Box
+        sx={{
+          marginBottom: '20px',
+        }}
+      >
         <Container maxWidth='md'>
           <Grid container rowSpacing={2} columnSpacing={2}>
             <Grid item xs={12} md={12} sx={{ textAlign: 'center' }}>
