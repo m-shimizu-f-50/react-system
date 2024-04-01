@@ -14,6 +14,8 @@ https://mui.com/material-ui/getting-started/
 
 - chartjs (レーダーチャート表示　ライブラリ)\
 https://react-chartjs-2.js.org/
+
+該当プルリク：　https://github.com/m-shimizu-f-50/react-system/pull/5　
   
 ### `npm start`
 
